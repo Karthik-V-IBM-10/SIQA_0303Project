@@ -8,6 +8,7 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: bvt
 - name: TPP_services_in_FCS
+  version: "1.0"
   gitServerName: SIQA_KVV_IBM
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: Karthik-V-IBM-10
@@ -16,6 +17,8 @@ services:
 - serviceName: project.siqa_0303.integrations:Sum
   packages:
   - name: SIQA_0303Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
     version: "1.0"
 - serviceName: pub.math:addInts
   packages:
@@ -29,6 +32,8 @@ services:
   packages:
   - name: SIQA_0303Project
     version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
 - serviceName: pub.string:stringToBytes
   packages:
   - name: WmPublic
@@ -41,3 +46,13 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2038
+- serviceName: project.siqa_0303.integrations:tppfs
+  packages:
+  - name: SIQA_0303Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: services:add3Ints
+  packages:
+  - name: TPP_services_in_FCS
+    version: "1.0"
