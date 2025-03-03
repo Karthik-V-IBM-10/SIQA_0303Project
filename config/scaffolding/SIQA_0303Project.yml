@@ -46,6 +46,18 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2038
+- serviceName: project.siqa_0303.integrations:refDaf
+  packages:
+  - name: SIQA_0303Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: project.siqa_0303.referencedata:ref1
+  packages:
+  - name: SIQA_0303Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
 - serviceName: project.siqa_0303.integrations:tppfs
   packages:
   - name: SIQA_0303Project
@@ -54,11 +66,5 @@ services:
     version: "1.0"
 - serviceName: services:add3Ints
   packages:
-  - name: TPP_services_in_FCS
-    version: "1.0"
-- serviceName: project.siqa_0303.referencedata:ref1
-  packages:
-  - name: SIQA_0303Project
-    version: "1.0"
   - name: TPP_services_in_FCS
     version: "1.0"
